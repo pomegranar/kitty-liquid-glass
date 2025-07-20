@@ -1,0 +1,138 @@
+{
+  "fill-specializations" : [
+    {
+      "value" : {
+        "linear-gradient" : [
+          "display-p3:0.17448,0.16942,0.28671,1.00000",
+          "display-p3:0.02360,0.02360,0.02360,1.00000"
+        ]
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "solid" : "display-p3:0.00000,0.00000,0.00000,1.00000"
+      }
+    }
+  ],
+  "groups" : [
+    {
+      "blend-mode" : "plus-lighter",
+      "blur-material" : 0.5,
+      "hidden" : false,
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "solid" : "extended-gray:1.00000,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Vector 3.svg",
+          "name" : "Vector 3",
+          "position" : {
+            "scale" : 2.5,
+            "translation-in-points" : [
+              -185.5,
+              -74.375
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "solid" : "extended-gray:1.00000,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Vector 2.svg",
+          "name" : "Vector 2",
+          "position" : {
+            "scale" : 2.5,
+            "translation-in-points" : [
+              183.75,
+              -75.25
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "opacity-specializations" : [
+        {
+          "value" : 0.57
+        },
+        {
+          "appearance" : "dark",
+          "value" : 0.65
+        },
+        {
+          "appearance" : "tinted",
+          "value" : 0.79
+        }
+      ],
+      "position" : {
+        "scale" : 1,
+        "translation-in-points" : [
+          0,
+          24.5
+        ]
+      },
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.9
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.31
+      }
+    },
+    {
+      "blend-mode" : "plus-lighter",
+      "blur-material" : 0.5,
+      "layers" : [
+        {
+          "hidden" : false,
+          "image-name" : "Vector 2.svg",
+          "name" : "Vector 2",
+          "position" : {
+            "scale" : 2.5,
+            "translation-in-points" : [
+              -185.5,
+              76.125
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "Vector 3.svg",
+          "name" : "Vector 3",
+          "position" : {
+            "scale" : 2.5,
+            "translation-in-points" : [
+              183.75,
+              76.125
+            ]
+          }
+        }
+      ],
+      "lighting" : "combined",
+      "opacity" : 0.79,
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.5
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.52
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
